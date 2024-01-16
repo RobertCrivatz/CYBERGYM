@@ -55,7 +55,7 @@
 						class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="index.jsp"><span
-					class="glyphicon glyphicon-home">&nbsp;</span>Shopping Center</a>
+					class="glyphicon glyphicon-home">&nbsp;</span>PROIECT PI</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
@@ -66,12 +66,12 @@
 						data-toggle="dropdown" href="#">Category <span class="caret"></span>
 					</a>
 						<ul class="dropdown-menu">
-							<li><a href="index.jsp?type=mobile">Proteine</a></li>
-							<li><a href="index.jsp?type=tv">Aminoacizi</a></li>
-							<li><a href="index.jsp?type=laptop">Vitamine</a></li>
-							<li><a href="index.jsp?type=camera">Creatina</a></li>
-							<li><a href="index.jsp?type=speaker">Preworkout</a></li>
-							<li><a href="index.jsp?type=tablet">Antioxidanti</a></li>
+							<li><a href="index.jsp?type=proteine">Proteine</a></li>
+							<li><a href="index.jsp?type=aminoacizi">Aminoacizi</a></li>
+							<li><a href="index.jsp?type=vitamine">Vitamine</a></li>
+							<li><a href="index.jsp?type=creatina">Creatina</a></li>
+							<li><a href="index.jsp?type=preworkout">Preworkout</a></li>
+							<li><a href="index.jsp?type=antioxidanti">Antioxidanti</a></li>
 						</ul></li>
 				</ul>
 			</div>
@@ -103,12 +103,12 @@
 						data-toggle="dropdown" href="#">Category <span class="caret"></span>
 					</a>
 						<ul class="dropdown-menu">
-							<li><a href="userHome.jsp?type=mobile">Mobiles</a></li>
-							<li><a href="userHome.jsp?type=tv">TV</a></li>
-							<li><a href="userHome.jsp?type=laptop">Laptops</a></li>
-							<li><a href="userHome.jsp?type=camera">Camera</a></li>
-							<li><a href="userHome.jsp?type=speaker">Speakers</a></li>
-							<li><a href="userHome.jsp?type=tablet">Tablets</a></li>
+							<li><a href="userHome.jsp?type=proteine">Proteine</a></li>
+							<li><a href="userHome.jsp?type=aminoacizi">Aminoacizi</a></li>
+							<li><a href="userHome.jsp?type=vitamine">Vitamine</a></li>
+							<li><a href="userHome.jsp?type=creatina">Creatina</a></li>
+							<li><a href="userHome.jsp?type=preworkout">Preworkout</a></li>
+							<li><a href="userHome.jsp?type=antioxidanti">Antioxidanti</a></li>
 						</ul></li>
 					<%
 					if (notf == 0) {
@@ -148,7 +148,7 @@
 						class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="adminViewProduct.jsp"><span
-					class="glyphicon glyphicon-home">&nbsp;</span>Shopping Center</a>
+					class="glyphicon glyphicon-home">&nbsp;</span>PROIECT PI</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
@@ -157,12 +157,12 @@
 						data-toggle="dropdown" href="#">Category <span class="caret"></span>
 					</a>
 						<ul class="dropdown-menu">
-							<li><a href="adminViewProduct.jsp?type=mobile">Mobiles</a></li>
-							<li><a href="adminViewProduct.jsp?type=tv">Tvs</a></li>
-							<li><a href="adminViewProduct.jsp?type=laptop">Laptops</a></li>
-							<li><a href="adminViewProduct.jsp?type=camera">Camera</a></li>
-							<li><a href="adminViewProduct.jsp?type=speaker">Speakers</a></li>
-							<li><a href="adminViewProduct.jsp?type=tablet">Tablets</a></li>
+							<li><a href="adminViewProduct.jsp?type=proteine">Proteine</a></li>
+							<li><a href="adminViewProduct.jsp?type=aminoacizi">Aminoacizi</a></li>
+							<li><a href="adminViewProduct.jsp?type=vitamine">Vitamine</a></li>
+							<li><a href="adminViewProduct.jsp?type=creatina">Creatina</a></li>
+							<li><a href="adminViewProduct.jsp?type=preworkout">Preworkout</a></li>
+							<li><a href="adminViewProduct.jsp?type=antioxidanti">Antioxidanti</a></li>
 						</ul></li>
 					<li><a href="adminStock.jsp">Stock</a></li>
 					<li><a href="shippedItems.jsp">Shipped</a></li>

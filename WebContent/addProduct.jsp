@@ -67,12 +67,12 @@
 					<div class="col-md-6 form-group">
 						<label for="producttype">Product Type</label> <select name="type"
 							id="producttype" class="form-control" required>
-							<option value="mobile">PROTEINE</option>
-							<option value="tv">AMINOACIZI</option>
-							<option value="camera">CREATINA</option>
-							<option value="laptop">VITAMINE</option>
-							<option value="tablet">ANTIOXIDANTI</option>
-							<option value="speaker">PREWORKOUT</option>
+							<option value="proteine">PROTEINE</option>
+							<option value="aminoacizi">AMINOACIZI</option>
+							<option value="creatina">CREATINA</option>
+							<option value="vitamine">VITAMINE</option>
+							<option value="antioxidanti">ANTIOXIDANTI</option>
+							<option value="preworkout">PREWORKOUT</option>
 							<option value="other">Some Other Appliances</option>
 						</select>
 					</div>

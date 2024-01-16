@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+++++++++++++++++++++++++	qqqqqqqqqqqqqqqqqqqqqqqqq`11111111111111111111111111111<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ page
 	import="com.shashi.service.impl.*, com.shashi.service.*,com.shashi.beans.*,java.util.*,javax.servlet.ServletOutputStream,java.io.*"%>
@@ -22,13 +22,10 @@
 	/* Checking the user credentials */
 	String userName = (String) session.getAttribute("username");
 	String password = (String) session.getAttribute("password");
-	String userType = (String) session.getAttribute("usertype");
 
-	boolean isValidUser = true;
+	if (userName == null || password == null) {
 
-	if (userType == null || userName == null || password == null || !userType.equals("customer")) {
-
-		isValidUser = false;
+		response.sendRedirect("login.jsp?message=Session Expired, Login Again!!");
 	}
 
 	ProductServiceImpl prodDao = new ProductServiceImpl();
@@ -52,12 +49,14 @@
 	}
 	%>
 
+
+
 	<jsp:include page="header.jsp" />
 
 	<div class="text-center"
 		style="color: black; font-size: 14px; font-weight: bold;"><%=message%></div>
-	<div class="text-center" id="message"
-		style="color: black; font-size: 14px; font-weight: bold;"></div>
+	<!-- <script>document.getElementById('mycart').innerHTML='<i data-count="20" class="fa fa-shopping-cart fa-3x icon-white badge" style="background-color:#333;margin:0px;padding:0px; margin-top:5px;"></i>'</script>
+ -->
 	<!-- Start of Product Items List -->
 	<div class="container">
 		<div class="row text-center">
