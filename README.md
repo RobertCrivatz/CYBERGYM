@@ -33,7 +33,7 @@ STEP 3: Copy paste and execute the MySQL Query from the following file:-
 
 Step 1: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: https://github.com/shashirajraja/shopping-cart.git> Select master Branch > Next > Next > Finish.
+Step 2: Import the project from Git.
 
 Step 3: Go inside Java Resources > src > application.properties and update the values as below:
 
